@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "v6addrs-visualizer"
+version = "0.1.0"
+description = ""
+authors = ["kusshi <51787281+kusshi94@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "v6addrs_visualizer"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+ipaddress = "^1.0.23"
+tqdm = "^4.65.0"
+scapy = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
